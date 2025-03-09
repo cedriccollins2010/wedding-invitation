@@ -1,0 +1,80 @@
+/* Importer une belle police */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('https://source.unsplash.com/1600x900/?wedding') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Conteneur principal */
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Titre */
+h1 {
+  font-size: 2rem;
+  color: #d63384;
+  margin-bottom: 10px;
+}
+
+/* Texte */
+p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Compte à rebours */
+.countdown {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* Champ de saisie */
+input {
+  padding: 10px;
+  width: 80%;
+  border: 2px solid #d63384;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Bouton */
+button {
+  background: #d63384;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #b0206c;
+}
+
+/* Icône de musique */
+button .icon {
+  margin-right: 5px;
+}
+
+/* Masquer l'élément audio */
+audio {
+  display: none;
+}
